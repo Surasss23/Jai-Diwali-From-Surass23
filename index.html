@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift Surprise from surass_23</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Background and Centering */
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b);
+      color: #fff;
+    }
+
+    /* Container Styling */
+    .container {
+      text-align: center;
+    }
+
+    /* Title Styling */
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    /* Button Styling */
+    .gift-button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      color: #3a1c71;
+      background: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .gift-button:hover {
+      background: #ffaf7b;
+      transform: scale(1.1);
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    @keyframes sparkle {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    .sparkle {
+      animation: sparkle 2s infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Here's a gift from surass_23 🎁</h1>
+    <button class="gift-button sparkle" onclick="redirect()">Click to Unwrap!</button>
+  </div>
+
+  <script>
+    function redirect() {
+      // Add the URL you want to redirect to here
+      window.location.href = "https://www.instagram.com/reel/DBvDb4HPxNs/?igsh=MXMxODRodmE0dXEzbw==";
+    }
+  </script>
+</body>
+</html>
